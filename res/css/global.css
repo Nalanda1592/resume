@@ -1,0 +1,28 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling : touch;
+}
+
+@font-face {
+  font-family: moonbright;
+  src: url(../fonts/moonbright/Moonbright.ttf);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    padding: 0;
+}
+
+.italic {
+	font-style: italic;
+}
